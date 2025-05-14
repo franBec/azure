@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Multi-tiered Templates
+# ARM Templates: Multi-tiered Templates
 
 While you can define many resources within a single ARM template, it is considered best practice, especially for complex deployments, to break down your template into smaller, more manageable files. This is where the concept of **multi-tiered** or **nested** ARM templates comes in.
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Provisioning Virtual Machines
+# Azure Virtual Machines
 
 When provisioning Azure Virtual Machines (VMs), especially when considering them for hosting applications (although often not the recommended approach for modern cloud development), several design considerations are crucial.
 

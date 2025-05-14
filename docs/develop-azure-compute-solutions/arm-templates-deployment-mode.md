@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Deployment Mode
+# ARM Templates: Deployment Mode
 
 When deploying an Azure ARM template, you must consider the **deployment mode**. This mode determines how Azure Resource Manager handles resources already present in the target scope (usually a Resource Group or Subscription) that are *not* defined in your template.
 
