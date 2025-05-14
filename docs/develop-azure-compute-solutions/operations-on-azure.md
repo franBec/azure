@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Operations on Azure: Control Plane vs. Data Plane
+# Operations on Azure
 
 Understanding the distinction between Control Plane and Data Plane operations is fundamental when working with Azure, particularly when dealing with resource management tools like ARM templates and Azure security (RBAC).
 
