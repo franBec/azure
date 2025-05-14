@@ -21,6 +21,12 @@ const config: Config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -38,6 +44,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       logo: {
