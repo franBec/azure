@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# ARM Templates and Azure Resource Manager
+# ARM Templates
 
 ## Azure Resource Manager (ARM)
 
