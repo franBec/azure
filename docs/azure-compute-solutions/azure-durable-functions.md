@@ -20,11 +20,17 @@ Durable Functions offers a code-first approach to defining workflows, similar in
 Durable Functions simplifies the implementation of challenging workflow patterns:
 
 1.  **Function Chaining:**
+    <div>
+      <img src={require('@site/static/img/azure-compute-solutions/azure-durable-functions-function-chaining.png').default} alt="azure durable functions function chaining" />
+    </div>
     *   Executes a sequence of functions in a specific order.
     *   The output of one function is passed as the input to the next function in the chain.
     *   Durable Functions manages the state (the output from each function) between the calls.
 
 2.  **Fan Out / Fan In:**
+    <div>
+      <img src={require('@site/static/img/azure-compute-solutions/azure-durable-functions-fan-out-fan-in.png').default} alt="azure durable functions fan out fan in" />
+    </div>
     *   Executes multiple functions in parallel ("fan out").
     *   Waits for all (or a subset) of the parallel function executions to complete.
     *   Aggregates the results from the parallel executions in a single function ("fan in").
