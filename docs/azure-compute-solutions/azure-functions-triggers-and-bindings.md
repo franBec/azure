@@ -7,7 +7,7 @@ sidebar_position: 14
 Triggers and bindings are key concepts in Azure Functions that allow you to connect your function code to other Azure services and external systems declaratively, reducing the amount of boilerplate code you need to write.
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-functions-triggers-and-bindings.png').default} alt="azure functions triggers and bindings" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-functions-triggers-and-bindings.png').default} alt="azure functions triggers and bindings" />
 </div>
 
 ## Triggers

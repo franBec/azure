@@ -28,7 +28,7 @@ Within the Diagnostic Settings for an Azure App Service resource, you can select
 You configure Diagnostic Settings for an App Service within its blade in the Azure portal. You add a diagnostic setting, choose which categories of logs you want to collect, and then specify one or more of the supported destinations (Log Analytics, Storage Account, Event Hubs).
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-app-service-diagnostic-settings.png').default} alt="azure app service diagnostic settings" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-app-service-diagnostic-settings.png').default} alt="azure app service diagnostic settings" />
 </div>
 
 Configuring Diagnostic Settings is crucial for gaining visibility into the behavior, performance, and issues within your Azure App Services, enabling effective monitoring and troubleshooting.

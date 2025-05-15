@@ -53,7 +53,7 @@ Azure Functions offers different hosting plans, affecting billing, features, and
 The structure for Azure Functions includes:
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-functions-resource-hierarchy.png').default} alt="azure functions resource hierarchy" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-functions-resource-hierarchy.png').default} alt="azure functions resource hierarchy" />
 </div>
 
 *   **App Service Plan:** The underlying hosting environment (either managed by Azure for Consumption/Premium, or one you explicitly create and manage for the Dedicated plan). Network and scaling configuration often tie back to the plan.

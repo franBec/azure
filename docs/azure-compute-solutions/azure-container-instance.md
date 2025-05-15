@@ -49,7 +49,7 @@ When creating an Azure Container Instance (via the portal, CLI, etc.), you'll ty
 *   **Networking:** Exposing ports, VNet integration options (more advanced).
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-container-instance-create-container-instance.png').default} alt="azure container instance create container instance" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-container-instance-create-container-instance.png').default} alt="azure container instance create container instance" />
 </div>
 
 Once configured, Azure pulls the specified image and runs your container(s) in a serverless environment.

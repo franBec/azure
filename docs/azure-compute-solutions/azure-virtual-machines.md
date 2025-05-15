@@ -34,7 +34,7 @@ When creating a VM in the Azure portal (or via ARM templates/IaC), you select th
 *   **Virtual Machine Scale Set:** Creates a group of identical VMs (often behind a load balancer) which inherently provides HA and auto-scaling capabilities.
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-virtual-machines-availability-options.png').default} alt="azure virtual machines availability options" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-virtual-machines-availability-options.png').default} alt="azure virtual machines availability options" />
 </div>
 
 Understanding these options is key to designing resilient compute solutions on Azure.

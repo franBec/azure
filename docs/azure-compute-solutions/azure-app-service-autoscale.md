@@ -35,7 +35,7 @@ You configure Autoscale by defining rules based on specific conditions. There ar
     *   **Use Case:** Ideal for predictable traffic patterns, such as scaling up for peak business hours or known seasonal spikes (like holidays) regardless of current metrics.
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-app-service-autoscale-scale-out.png').default} alt="azure app service autoscale scale out" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-app-service-autoscale-scale-out.png').default} alt="azure app service autoscale scale out" />
 </div>
 
 ### Combining Rules
@@ -52,11 +52,11 @@ When configuring Autoscale, you'll define:
 *   **Scale Condition Type:** Choose between scaling based on a metric or a specific instance count (schedule).
 *   **Metric Source:** While typically the resource you're scaling (e.g., the App Service Plan), it *can* technically be a metric from a different resource, though less common in practice.
     <div>
-      <img src={require('@site/static/img/develop-azure-compute-solutions/azure-app-service-autoscale-metric-source.png').default} alt="azure app service autoscale metric source" />
+      <img src={require('@site/static/img/azure-compute-solutions/azure-app-service-autoscale-metric-source.png').default} alt="azure app service autoscale metric source" />
     </div>
 *   **Metric Name:** Select the specific metric to monitor (e.g., CPU Percentage).
     <div>
-      <img src={require('@site/static/img/develop-azure-compute-solutions/azure-app-service-autoscale-metric-name.png').default} alt="azure app service autoscale metric name" />
+      <img src={require('@site/static/img/azure-compute-solutions/azure-app-service-autoscale-metric-name.png').default} alt="azure app service autoscale metric name" />
     </div>
 *   **Threshold, Operator, Duration:** Define when the rule triggers (e.g., CPU > 70% for 10 minutes).
 *   **Scale Action:** How many instances to add or remove.

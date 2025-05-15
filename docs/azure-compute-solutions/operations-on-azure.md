@@ -23,13 +23,13 @@ While documentation lists operations under Resource Providers, they might not al
 1.  **Check RBAC Role Definitions:** This is presented as the most explicit way. View an Azure Built-in Role (like "Blob Reader") or a Custom Role. You will see permissions listed separately under `Actions` (Control Plane) and `Data Actions` (Data Plane). Permissions under `Data Actions` specifically relate to interacting with the data within the service instance.
 
     <div>
-      <img src={require('@site/static/img/develop-azure-compute-solutions/operations-on-azure-azure-built-in-role.png').default} alt="operations on azure azure built-in role" />
+      <img src={require('@site/static/img/azure-compute-solutions/operations-on-azure-azure-built-in-role.png').default} alt="operations on azure azure built-in role" />
     </div>
 
 2.  **Consider Azure Activity Log Behavior:** As a general rule of thumb (useful for the exam, though with some exceptions):
 
     <div>
-        <img src={require('@site/static/img/develop-azure-compute-solutions/operations-on-azure-activity-log.png').default} alt="operations on azure activity log" />
+        <img src={require('@site/static/img/azure-compute-solutions/operations-on-azure-activity-log.png').default} alt="operations on azure activity log" />
     </div>
     
     *   If an operation is typically logged in the **Azure Activity Log**, it's likely a **Control Plane** operation.

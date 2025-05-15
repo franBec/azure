@@ -1,0 +1,8 @@
+{
+  "label": "Azure Compute Solutions",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This section covers 'Azure Compute Solutions,' which forms the bulk of the compute topics on the AZ-204 exam (25-30%). Following the syllabus, we'll systematically cover the four main topics: IaaS and ARM templates, Containers, Azure App Service, and Azure Functions. Get ready to master these core compute solutions."
+  }
+}

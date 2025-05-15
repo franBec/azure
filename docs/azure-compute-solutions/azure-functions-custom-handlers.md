@@ -9,7 +9,7 @@ Azure Functions Custom Handlers allow you to run Azure Functions using languages
 ## How Custom Handlers Work
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-functions-custom-handlers.png').default} alt="azure functions custom handlers" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-functions-custom-handlers.png').default} alt="azure functions custom handlers" />
 </div>
 
 The mechanism for custom handlers involves the Azure Functions host interacting with your custom web server:

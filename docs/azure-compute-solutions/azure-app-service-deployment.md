@@ -17,7 +17,7 @@ There are two main approaches for deploying your code to Azure App Service:
     *   **Configuration:** Typically set up via the "Deployment Center" in the App Service blade in the Azure portal.
 
     <div>
-      <img src={require('@site/static/img/develop-azure-compute-solutions/azure-app-service-deployment-deployment-center.png').default} alt="azure app service deployment center" />
+      <img src={require('@site/static/img/azure-compute-solutions/azure-app-service-deployment-deployment-center.png').default} alt="azure app service deployment center" />
     </div>
 
 2.  **Manual Deployment:**
@@ -34,7 +34,7 @@ There are two main approaches for deploying your code to Azure App Service:
 A key feature for robust App Service deployments, especially in production, is the use of **Deployment Slots**.
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/azure-app-service-deployment-slots.png').default} alt="azure app service deployment slots" />
+  <img src={require('@site/static/img/azure-compute-solutions/azure-app-service-deployment-slots.png').default} alt="azure app service deployment slots" />
 </div>
 
 *   **Hierarchy:** Deployment slots exist *under* an Azure App Service resource. The hierarchy is: App Service Plan → App Service Resource → **Deployment Slots**.
