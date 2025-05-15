@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-# Deploying Code to Azure App Service
+# Azure App Service Deployment
 
 Getting your application code onto an Azure App Service instance can be done through several methods. The choice often depends on your development workflow and environment.
 
