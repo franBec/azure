@@ -25,7 +25,7 @@ The idea is to create a **parent template** that orchestrates the deployment by 
 Instead of having one large ARM template to deploy a multi-component application (like a Virtual Machine, an App Service, and a SQL Database), you would structure it as follows:
 
 <div>
-  <img src={require('@site/static/img/develop-azure-compute-solutions/arm-templates-multi-tiered-template-multi-tiered-template.png').default} alt="arm templates multi tiered template multi tiered template" />
+  <img src={require('@site/static/img/develop-azure-compute-solutions/arm-templates-multi-tiered-template.png').default} alt="arm templates multi tiered template" />
 </div>
 
 1.  Create a separate ARM template for the Virtual Machine.
