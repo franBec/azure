@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "WIP"
+    "description": "This section covers essential Azure Storage services for the AZ-204 exam. Learn about Azure Cosmos DB (a globally distributed NoSQL database, including data models, APIs, consistency, and partitioning) and Azure Blob Storage (scalable object storage, including access tiers, lifecycle management, and operations)."
   }
 }
