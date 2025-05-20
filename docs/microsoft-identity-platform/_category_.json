@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "WIP"
+    "description": "This section delves into Microsoft's Identity Platform and key services for identity, authentication, and authorization in Azure. Explore standards like OAuth 2.0 and OpenID Connect, securing your custom APIs through App Registrations, and managing sensitive credentials and configuration with Azure Key Vault and App Configuration. Discover how Managed Identities simplify authentication and how Shared Access Signatures provide granular access to services."
   }
 }
