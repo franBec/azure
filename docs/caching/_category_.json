@@ -1,8 +1,8 @@
 {
   "label": "Caching",
-  "position": 4,
+  "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "WIP"
+    "description": "This section covers caching strategies in Azure to improve application performance and reduce backend load. Learn about general caching concepts, in-memory stores like Redis (and Azure Cache for Redis), and Content Delivery Networks (CDNs) for distributing static content closer to users."
   }
 }
