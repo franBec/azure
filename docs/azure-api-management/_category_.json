@@ -3,6 +3,6 @@
   "position": 7,
   "link": {
     "type": "generated-index",
-    "description": "WIP"
+    "description": "Dive into Azure API Management, the managed gateway service for publishing, securing, and managing your APIs. This section covers defining and onboarding your APIs, organizing them into Products, controlling access with Subscriptions, implementing runtime behavior using Policies (like throttling), and providing an interactive Developer Portal for your API consumers."
   }
 }
